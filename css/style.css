@@ -1,0 +1,131 @@
+/***** NAVBAR *****/
+.navbar-default {
+  background-color: #FFFFFF;
+  border-radius: 0;
+  background-image: none;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+  color: black;
+  font-size: 16px;
+  }
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #808080;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+  color: black;
+  font-size: 16px;
+}
+
+/* Navbar collapsed styles */
+.navbar-header .navbar-toggle {
+  color: black;
+}
+
+.navbar-header .navbar-toggle:hover,
+.navbar-header .navbar-toggle:focus {
+  background-color: #808080;
+  color: black;
+}
+
+/*** Portfolio pieces ***/
+.portfolio-thumbnail {
+  background-color: white;
+  border-color: white;
+  border-width: 2px;
+  width: 95%;
+}
+
+.portfolio-thumbnail:hover {
+  border-color: #808080;
+}
+
+.portfolio-title {
+  font-weight: bold;
+}
+
+.portfolio-description {
+}
+
+.portfolio-image {
+}
+
+.social-icons {
+  text-align: center;
+  }  
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+  width:70px;
+  height:70px;
+  margin-top: 60px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+#bio-pic {
+  max-height: 400px;
+}
+
+.resume h3 {
+  font-weight: bold;
+}
+
+hr {
+  border-color: white;
+  border-width: 2px;
+}
+
+p {
+  font-family: 'Montserrat';
+  font-size: 18px;
+}
+
+h4 {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  text-align: center;
+}
+
+
+a {
+  color: #808080;
+}
+
+a:hover {
+  color: #808080;
+}
+
+.jumbotron {
+  background-color: white;
+  text-align: center;
+  color: black;
+  padding: 0.5%;
+}
+
+.jumbotron h2 {
+  font-family: 'Alex Brush';
+  font-size: 100px;
+}
+
+body {
+  padding-top: 50px;
+  font-family: 'Montserrat';
+  background-color: white;
+  color: black;
+}
